@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}{% endblock %}
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <span class="brand-logo"><a href="/">NIKE</a></span>
+            <nav class="header-nav">
+                <a href="/Hombre">Hombre</a>
+                <a href="/Mujer">Mujer</a>
+                <a href="/Niños">Niños</a>
+                <a href="/Deporte">Deporte</a>
+            </nav>
+            <button class="cart-btn">Bolsa (0)</button>
+        </div>
+    </header>
+
+  
+    {% block main %}{% endblock %}
+
+    <footer class="site-footer">
+        <p>© 2026 Nike, Inc. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
